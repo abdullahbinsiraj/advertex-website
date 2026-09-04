@@ -1,0 +1,459 @@
+/*======================================================
+                PAYMENT METHODS
+======================================================*/
+
+.paysec-section{
+
+    position:relative;
+
+    padding:110px 0;
+
+    background:#07111F;
+
+    overflow:hidden;
+
+}
+
+.paysec-section::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:-220px;
+
+    left:-220px;
+
+    width:420px;
+
+    height:420px;
+
+    border-radius:50%;
+
+    background:rgba(6,200,242,.08);
+
+    filter:blur(120px);
+
+}
+
+.paysec-section::after{
+
+    content:"";
+
+    position:absolute;
+
+    bottom:-220px;
+
+    right:-220px;
+
+    width:420px;
+
+    height:420px;
+
+    border-radius:50%;
+
+    background:rgba(6,200,242,.08);
+
+    filter:blur(120px);
+
+}
+
+/*======================================================
+                SECTION HEADING
+======================================================*/
+
+.paysec-heading{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:820px;
+
+    margin:auto;
+
+    margin-bottom:70px;
+
+}
+
+.paysec-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:12px 24px;
+
+    border-radius:50px;
+
+    background:rgba(6,200,242,.10);
+
+    border:1px solid rgba(6,200,242,.25);
+
+    color:#2563EB;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:24px;
+
+}
+
+.paysec-heading h2{
+
+    color:#FFFFFF;
+
+    font-size:48px;
+
+    font-weight:800;
+
+    line-height:62px;
+
+    margin-bottom:22px;
+
+}
+
+.paysec-heading p{
+
+    color:#A9B8D3;
+
+    font-size:17px;
+
+    line-height:34px;
+
+    margin:0;
+
+}
+
+/*======================================================
+                CARDS
+======================================================*/
+
+.paysec-card{
+
+    position:relative;
+
+    height:100%;
+
+    padding:40px 34px;
+
+    border-radius:24px;
+
+    background:linear-gradient(180deg,#111B2E 0%,#0B1628 100%);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+    overflow:hidden;
+
+}
+
+.paysec-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:4px;
+
+    background:#2563EB;
+
+    transform:scaleX(0);
+
+    transition:.35s;
+
+}
+
+.paysec-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:rgba(6,200,242,.35);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.30);
+
+}
+
+.paysec-card:hover::before{
+
+    transform:scaleX(1);
+
+}
+
+/*======================================================
+                ICON
+======================================================*/
+
+.paysec-icon{
+
+    width:78px;
+
+    height:78px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(6,200,242,.10);
+
+    margin-bottom:28px;
+
+}
+
+.paysec-icon i{
+
+    font-size:34px;
+
+    color:#2563EB;
+
+}
+
+/*======================================================
+                CARD CONTENT
+======================================================*/
+
+.paysec-card h4{
+
+    color:#FFFFFF;
+
+    font-size:26px;
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+}
+
+.paysec-card p{
+
+    color:#A9B8D3;
+
+    font-size:15px;
+
+    line-height:30px;
+
+    margin-bottom:28px;
+
+}
+
+/*======================================================
+                LIST
+======================================================*/
+
+.paysec-list{
+
+    margin:0;
+
+    padding:0;
+
+    list-style:none;
+
+}
+
+.paysec-list li{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:#E5E7EB;
+
+    font-size:15px;
+
+    margin-bottom:14px;
+
+}
+
+.paysec-list li:last-child{
+
+    margin-bottom:0;
+
+}
+
+.paysec-list i{
+
+    color:#2563EB;
+
+    font-size:16px;
+
+}
+
+/*======================================================
+                FOOTER CTA
+======================================================*/
+
+.paysec-footer{
+
+    position:relative;
+
+    z-index:2;
+
+    margin-top:70px;
+
+}
+
+.paysec-footer p{
+
+    color:#A9B8D3;
+
+    font-size:17px;
+
+    line-height:32px;
+
+    margin-bottom:28px;
+
+}
+
+.paysec-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:18px 34px;
+
+    border-radius:14px;
+
+    background:#2563EB;
+
+    color:#FFFFFF;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+}
+
+.paysec-btn:hover{
+
+    color:#07111F;
+
+    transform:translateY(-5px);
+
+    box-shadow:0 18px 40px rgba(6,200,242,.30);
+
+}
+
+/*======================================================
+                RESPONSIVE
+======================================================*/
+
+@media(max-width:991px){
+
+.paysec-section{
+
+    padding:90px 0;
+
+}
+
+.paysec-heading{
+
+    margin-bottom:50px;
+
+}
+
+.paysec-heading h2{
+
+    font-size:38px;
+
+    line-height:50px;
+
+}
+
+.paysec-card{
+
+    padding:34px 28px;
+
+}
+
+}
+
+@media(max-width:767px){
+
+.paysec-section{
+
+    padding:70px 0;
+
+}
+
+.paysec-heading h2{
+
+    font-size:30px;
+
+    line-height:42px;
+
+}
+
+.paysec-heading p{
+
+    font-size:15px;
+
+    line-height:28px;
+
+}
+
+.paysec-card{
+
+    text-align:center;
+
+    padding:30px 24px;
+
+}
+
+.paysec-icon{
+
+    margin:0 auto 24px;
+
+}
+
+.paysec-list li{
+
+    justify-content:center;
+
+}
+
+.paysec-footer{
+
+    margin-top:50px;
+
+}
+
+.paysec-footer p{
+
+    font-size:15px;
+
+    line-height:28px;
+
+}
+
+.paysec-btn{
+
+    width:100%;
+
+    justify-content:center;
+
+}
+
+}

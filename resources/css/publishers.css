@@ -1,0 +1,4048 @@
+/*======================================================
+                PUBLISHERS HERO
+======================================================*/
+
+.pubx-hero{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:120px 0;
+
+    background:
+    radial-gradient(circle at top left, rgba(37,99,235,.10), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(37,99,235,.08), transparent 35%),
+    #07111F;
+
+}
+
+.pubx-grid{
+
+    display:grid;
+
+    grid-template-columns:1.05fr .95fr;
+
+    align-items:center;
+
+    gap:70px;
+
+}
+
+/*======================================================
+                LEFT SIDE
+======================================================*/
+
+.pubx-left{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.pubx-label{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:12px 22px;
+
+    border-radius:50px;
+
+    background:rgba(37,99,235,.10);
+
+    border:1px solid rgba(37,99,235,.25);
+
+    color:#2563EB;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:28px;
+
+}
+
+.pubx-label i{
+
+    font-size:18px;
+
+}
+
+.pubx-left h1{
+
+    color:#FFFFFF;
+
+    font-size:58px;
+
+    line-height:70px;
+
+    font-weight:800;
+
+    margin-bottom:28px;
+
+    letter-spacing:-1px;
+
+}
+
+.pubx-left p{
+
+    color:#A9B8D3;
+
+    font-size:17px;
+
+    line-height:34px;
+
+    max-width:620px;
+
+    margin-bottom:42px;
+
+}
+
+/*======================================================
+                BUTTONS
+======================================================*/
+
+.pubx-actions{
+
+    display:flex;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:50px;
+
+}
+
+.pubx-btn-primary{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+    min-width:220px;
+
+    height:58px;
+
+    border-radius:14px;
+
+    background:#2563EB;
+
+    color:#FFFFFF;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.35s ease;
+
+}
+
+.pubx-btn-primary:hover{
+
+    background:#1D4ED8;
+
+    color:#FFFFFF;
+
+    transform:translateY(-5px);
+
+    box-shadow:0 20px 45px rgba(37,99,235,.30);
+
+}
+
+.pubx-btn-outline{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-width:180px;
+
+    height:58px;
+
+    border-radius:14px;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    color:#FFFFFF;
+
+    text-decoration:none;
+
+    transition:.35s ease;
+
+}
+
+.pubx-btn-outline:hover{
+
+    background:#FFFFFF;
+
+    color:#07111F;
+
+}
+
+/*======================================================
+                STATS
+======================================================*/
+
+.pubx-stats{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:45px;
+
+    flex-wrap:wrap;
+
+}
+
+.pubx-item h3{
+
+    color:#2563EB;
+
+    font-size:34px;
+
+    font-weight:800;
+
+    margin-bottom:6px;
+
+}
+
+.pubx-item span{
+
+    color:#C9D4E5;
+
+    font-size:15px;
+
+    line-height:24px;
+
+}
+
+/*======================================================
+                RIGHT SIDE
+======================================================*/
+
+.pubx-right{
+
+    position:relative;
+
+}
+
+.pubx-dashboard{
+
+    position:relative;
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    background:linear-gradient(180deg,#111B2E 0%,#0B1628 100%);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:0 30px 70px rgba(0,0,0,.35);
+
+}
+
+.pubx-topbar{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:18px 22px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.pubx-topbar span{
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:50%;
+
+    background:#2563EB;
+
+}
+
+.pubx-content{
+
+    position:relative;
+
+    padding:35px 30px 120px;
+
+}
+
+/*======================================================
+                REVENUE CARD
+======================================================*/
+
+.pubx-income{
+
+    padding:28px;
+
+    border-radius:18px;
+
+    background:rgba(37,99,235,.10);
+
+    border:1px solid rgba(37,99,235,.20);
+
+}
+
+.pubx-income small{
+
+    display:block;
+
+    color:#A9B8D3;
+
+    font-size:14px;
+
+    margin-bottom:12px;
+
+}
+
+.pubx-income h2{
+
+    color:#FFFFFF;
+
+    font-size:48px;
+
+    font-weight:800;
+
+    margin-bottom:10px;
+
+}
+
+.pubx-income p{
+
+    color:#2563EB;
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+/*======================================================
+                REVENUE GRAPH
+======================================================*/
+
+.pubx-graph{
+
+    display:flex;
+
+    align-items:flex-end;
+
+    justify-content:space-between;
+
+    gap:12px;
+
+    height:170px;
+
+    margin-top:35px;
+
+}
+
+.pubx-column{
+
+    flex:1;
+
+    border-radius:10px 10px 0 0;
+
+    background:linear-gradient(180deg,#2563EB,#1D4ED8);
+
+}
+
+.pubx-column.c1{height:55px;}
+.pubx-column.c2{height:90px;}
+.pubx-column.c3{height:145px;}
+.pubx-column.c4{height:120px;}
+.pubx-column.c5{height:165px;}
+
+/*======================================================
+                FLOATING CARDS
+======================================================*/
+
+.pubx-card{
+
+    position:absolute;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    padding:16px 18px;
+
+    background:#FFFFFF;
+
+    border-radius:16px;
+
+    box-shadow:0 18px 45px rgba(0,0,0,.16);
+
+    min-width:220px;
+
+}
+
+.pubx-card i{
+
+    color:#2563EB;
+
+    font-size:22px;
+
+}
+
+.pubx-card strong{
+
+    display:block;
+
+    color:#07111F;
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.pubx-card span{
+
+    display:block;
+
+    color:#64748B;
+
+    font-size:13px;
+
+}
+
+.pubx-card-one{
+
+    top:25px;
+
+    right:-30px;
+
+}
+
+.pubx-card-two{
+
+    left:-10px;
+
+    bottom:125px;
+
+}
+
+.pubx-card-three{
+
+    right:-10px;
+
+    bottom:35px;
+
+}
+
+.pubx-card-four{
+
+    left:20px;
+
+    bottom:-15px;
+
+}
+
+/*======================================================
+                LARGE DEVICES
+======================================================*/
+
+@media (max-width:1199px){
+
+    .pubx-left h1{
+
+        font-size:50px;
+
+        line-height:62px;
+
+    }
+
+    .pubx-grid{
+
+        gap:50px;
+
+    }
+
+}
+
+/*======================================================
+                TABLET
+======================================================*/
+
+@media (max-width:991px){
+    .pubx-label{
+        margin-top:45px;
+    }
+    .pubx-hero{
+
+        padding:90px 0;
+
+    }
+
+    .pubx-grid{
+
+        grid-template-columns:1fr;
+
+        gap:60px;
+
+    }
+
+    .pubx-left{
+
+        text-align:center;
+
+    }
+
+    .pubx-left p{
+
+        max-width:700px;
+
+        margin-left:auto;
+
+        margin-right:auto;
+
+    }
+
+    .pubx-actions{
+
+        justify-content:center;
+
+    }
+
+    .pubx-stats{
+
+        justify-content:center;
+
+    }
+
+    .pubx-right{
+
+        max-width:700px;
+
+        width:100%;
+
+        margin:0 auto;
+
+    }
+
+    .pubx-card{
+
+        min-width:210px;
+
+    }
+
+    .pubx-card-one{
+
+        right:10px;
+
+    }
+
+    .pubx-card-two{
+
+        left:10px;
+
+    }
+
+    .pubx-card-three{
+
+        right:10px;
+
+    }
+
+    .pubx-card-four{
+
+        left:25px;
+
+    }
+
+}
+
+/*======================================================
+                MOBILE
+======================================================*/
+
+@media (max-width:767px){
+
+    .pubx-hero{
+
+        padding:70px 0;
+
+    }
+
+    .pubx-left h1{
+
+        font-size:36px;
+
+        line-height:48px;
+
+    }
+
+    .pubx-left p{
+
+        font-size:15px;
+
+        line-height:28px;
+
+    }
+
+    .pubx-actions{
+
+        flex-direction:column;
+
+    }
+
+    .pubx-btn-primary,
+
+    .pubx-btn-outline{
+
+        width:100%;
+
+        min-width:100%;
+
+    }
+
+    .pubx-stats{
+
+        gap:25px;
+
+        justify-content:space-between;
+
+    }
+
+    .pubx-item{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .pubx-content{
+
+        padding:25px 20px 25px;
+
+    }
+
+    .pubx-income h2{
+
+        font-size:36px;
+
+    }
+
+    .pubx-graph{
+
+        height:130px;
+
+    }
+
+    .pubx-card{
+
+        position:relative;
+
+        left:auto;
+
+        right:auto;
+
+        top:auto;
+
+        bottom:auto;
+
+        width:100%;
+
+        min-width:100%;
+
+        margin-top:18px;
+
+    }
+
+}
+
+
+
+
+/*======================================================
+            REVENUE SHOWCASE
+======================================================*/
+
+.pubrev-section{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:110px 0;
+
+    background:#0B1628;
+
+}
+
+.pubrev-heading{
+
+    max-width:760px;
+
+    margin:0 auto 70px;
+
+    text-align:center;
+
+}
+
+.pubrev-heading span{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:12px 24px;
+
+    border-radius:50px;
+
+    background:rgba(37,99,235,.10);
+
+    border:1px solid rgba(37,99,235,.20);
+
+    color:#2563EB;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:22px;
+
+}
+
+.pubrev-heading h2{
+
+    color:#FFFFFF;
+
+    font-size:48px;
+
+    font-weight:800;
+
+    line-height:62px;
+
+    margin-bottom:22px;
+
+}
+
+.pubrev-heading p{
+
+    color:#B9C5D8;
+
+    font-size:17px;
+
+    line-height:32px;
+
+}
+
+/*======================================================
+            GRID
+======================================================*/
+
+.pubrev-wrapper{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+/*======================================================
+            LEFT SIDE
+======================================================*/
+
+.pubrev-left{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:22px;
+
+}
+
+.pubrev-card{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:22px;
+
+    padding:28px;
+
+    border-radius:20px;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    transition:.35s;
+
+}
+
+.pubrev-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:rgba(37,99,235,.30);
+
+    box-shadow:0 25px 55px rgba(0,0,0,.25);
+
+}
+
+.pubrev-icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(37,99,235,.12);
+
+    flex-shrink:0;
+
+}
+
+.pubrev-icon i{
+
+    color:#2563EB;
+
+    font-size:30px;
+
+}
+
+.pubrev-info h3{
+
+    color:#FFFFFF;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    margin-bottom:12px;
+
+}
+
+.pubrev-info p{
+
+    color:#AEBED6;
+
+    font-size:15px;
+
+    line-height:28px;
+
+}
+
+/*======================================================
+            RIGHT SIDE
+======================================================*/
+
+.pubrev-right{
+
+    position:relative;
+
+}
+
+.pubrev-dashboard{
+
+    position:relative;
+
+    border-radius:24px;
+
+    padding:40px;
+
+    background:linear-gradient(180deg,#111B2E,#0F1A2F);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:0 35px 80px rgba(0,0,0,.30);
+
+}
+
+.pubrev-income{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:30px;
+
+}
+
+.pubrev-before small,
+
+.pubrev-after small{
+
+    display:block;
+
+    color:#93A4C2;
+
+    margin-bottom:12px;
+
+    font-size:14px;
+
+}
+
+.pubrev-before h3{
+
+    color:#FFFFFF;
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+.pubrev-arrow{
+
+    color:#2563EB;
+
+    font-size:42px;
+
+}
+
+.pubrev-after h2{
+
+    color:#FFFFFF;
+
+    font-size:52px;
+
+    font-weight:800;
+
+    margin-bottom:10px;
+
+}
+
+.pubrev-after span{
+
+    display:inline-block;
+
+    color:#2563EB;
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+/*======================================================
+            METRICS
+======================================================*/
+
+.pubrev-metrics{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:18px;
+
+    margin-top:40px;
+
+}
+
+.pubrev-metric{
+
+    padding:22px;
+
+    border-radius:18px;
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.06);
+
+    text-align:center;
+
+}
+
+.pubrev-metric strong{
+
+    display:block;
+
+    color:#2563EB;
+
+    font-size:26px;
+
+    font-weight:800;
+
+    margin-bottom:8px;
+
+}
+
+.pubrev-metric span{
+
+    color:#C6D2E6;
+
+    font-size:14px;
+
+}
+
+/*======================================================
+            FLOATING CARDS
+======================================================*/
+
+.pubrev-float{
+
+    position:absolute;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:16px 18px;
+
+    background:#FFFFFF;
+
+    border-radius:16px;
+
+    box-shadow:0 18px 45px rgba(0,0,0,.18);
+
+}
+
+.pubrev-float i{
+
+    color:#2563EB;
+
+    font-size:20px;
+
+}
+
+.pubrev-float span{
+
+    color:#07111F;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.pubrev-float-one{
+
+    top:-20px;
+
+    right:-25px;
+
+}
+
+.pubrev-float-two{
+
+    bottom:-25px;
+
+    left:-20px;
+
+}
+
+/*======================================================
+            BOTTOM STATS
+======================================================*/
+
+.pubrev-bottom{
+
+    margin-top:80px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+.pubrev-box{
+
+    padding:35px 25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    transition:.35s;
+
+}
+
+.pubrev-box:hover{
+
+    transform:translateY(-8px);
+
+    border-color:rgba(37,99,235,.30);
+
+}
+
+.pubrev-box h3{
+
+    color:#2563EB;
+
+    font-size:40px;
+
+    font-weight:800;
+
+    margin-bottom:12px;
+
+}
+
+.pubrev-box p{
+
+    color:#C7D3E5;
+
+    font-size:15px;
+
+    line-height:26px;
+
+}
+
+/*======================================================
+            RESPONSIVE
+======================================================*/
+
+@media (max-width:1199px){
+
+    .pubrev-heading h2{
+
+        font-size:42px;
+
+        line-height:56px;
+
+    }
+
+}
+
+@media (max-width:991px){
+
+    .pubrev-section{
+
+        padding:90px 0;
+
+    }
+
+    .pubrev-wrapper{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .pubrev-right{
+
+        max-width:700px;
+
+        width:100%;
+
+        margin:0 auto;
+
+    }
+
+    .pubrev-bottom{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .pubrev-float-one{
+
+        right:10px;
+
+    }
+
+    .pubrev-float-two{
+
+        left:10px;
+
+    }
+
+}
+
+@media (max-width:767px){
+
+    .pubrev-section{
+
+        /* padding:70px 0; */
+        padding: 0;
+
+    }
+
+    .pubrev-heading{
+
+        margin-bottom:45px;
+
+    }
+
+    .pubrev-heading h2{
+
+        font-size:34px;
+
+        line-height:46px;
+
+    }
+
+    .pubrev-heading p{
+
+        font-size:15px;
+
+        line-height:28px;
+
+    }
+
+    .pubrev-card{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .pubrev-icon{
+
+        margin:0 auto;
+
+    }
+
+    .pubrev-dashboard{
+
+        padding:25px;
+
+    }
+
+    .pubrev-income{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .pubrev-arrow{
+
+        transform:rotate(90deg);
+
+    }
+
+    .pubrev-after h2{
+
+        font-size:40px;
+
+    }
+
+    .pubrev-metrics{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .pubrev-bottom{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .pubrev-float{
+
+        position:relative;
+
+        top:auto;
+
+        right:auto;
+
+        left:auto;
+
+        bottom:auto;
+
+        width:100%;
+
+        margin-top:18px;
+
+    }
+
+}
+
+
+
+/*======================================================
+            PUBLISHER REQUIREMENTS
+======================================================*/
+
+.pubreq-section{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:110px 0;
+
+    background:#07111F;
+
+}
+
+.pubreq-heading{
+
+    max-width:760px;
+
+    margin:0 auto 70px;
+
+    text-align:center;
+
+}
+
+.pubreq-heading span{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:12px 24px;
+
+    border-radius:50px;
+
+    background:rgba(37,99,235,.10);
+
+    border:1px solid rgba(37,99,235,.20);
+
+    color:#2563EB;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:22px;
+
+}
+
+.pubreq-heading h2{
+
+    color:#FFFFFF;
+
+    font-size:48px;
+
+    font-weight:800;
+
+    line-height:62px;
+
+    margin-bottom:22px;
+
+}
+
+.pubreq-heading p{
+
+    color:#B7C5DA;
+
+    font-size:17px;
+
+    line-height:32px;
+
+}
+
+/*======================================================
+                GRID
+======================================================*/
+
+.pubreq-wrapper{
+
+    display:grid;
+
+    grid-template-columns:1.1fr .9fr;
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+/*======================================================
+                LEFT SIDE
+======================================================*/
+
+.pubreq-left{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:22px;
+
+}
+
+.pubreq-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:22px;
+
+    padding:28px;
+
+    border-radius:20px;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    transition:.35s ease;
+
+}
+
+.pubreq-item:hover{
+
+    transform:translateY(-8px);
+
+    border-color:rgba(37,99,235,.30);
+
+    box-shadow:0 20px 50px rgba(0,0,0,.28);
+
+}
+
+.pubreq-icon{
+
+    width:72px;
+
+    height:72px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    flex-shrink:0;
+
+    background:rgba(37,99,235,.10);
+
+}
+
+.pubreq-icon i{
+
+    color:#2563EB;
+
+    font-size:30px;
+
+}
+
+.pubreq-content h3{
+
+    color:#FFFFFF;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    margin-bottom:12px;
+
+}
+
+.pubreq-content p{
+
+    color:#B5C3D8;
+
+    font-size:15px;
+
+    line-height:28px;
+
+}
+
+/*======================================================
+                RIGHT CARD
+======================================================*/
+
+.pubreq-right{
+
+    position:relative;
+
+}
+
+.pubreq-card{
+
+    position:relative;
+
+    border-radius:24px;
+
+    padding:40px;
+
+    background:linear-gradient(180deg,#111B2E,#0E1A2E);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:0 35px 80px rgba(0,0,0,.30);
+
+}
+
+.pubreq-card-header span{
+
+    color:#2563EB;
+
+    font-size:14px;
+
+    font-weight:700;
+
+}
+
+.pubreq-card-header h3{
+
+    color:#FFFFFF;
+
+    font-size:34px;
+
+    font-weight:800;
+
+    margin-top:12px;
+
+}
+
+/*======================================================
+            APPROVAL SCORE
+======================================================*/
+
+.pubreq-score{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin:35px 0;
+
+}
+
+.pubreq-circle{
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:linear-gradient(180deg,#2563EB,#1D4ED8);
+
+    box-shadow:0 20px 50px rgba(37,99,235,.30);
+
+}
+
+.pubreq-circle strong{
+
+    color:#FFFFFF;
+
+    font-size:48px;
+
+    font-weight:800;
+
+    line-height:1;
+
+}
+
+.pubreq-circle span{
+
+    color:#E8F1FF;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    margin-top:10px;
+
+}
+
+/*======================================================
+            CHECKLIST
+======================================================*/
+
+.pubreq-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+    margin-top:20px;
+
+}
+
+.pubreq-check{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:14px 16px;
+
+    border-radius:14px;
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.06);
+
+    color:#D5E0F0;
+
+    font-size:15px;
+
+}
+
+.pubreq-check i{
+
+    color:#2563EB;
+
+    font-size:18px;
+
+}
+
+/*======================================================
+            FOOTER CTA
+======================================================*/
+
+.pubreq-footer{
+
+    margin-top:35px;
+
+    padding-top:30px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.pubreq-footer h4{
+
+    color:#FFFFFF;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    margin-bottom:14px;
+
+}
+
+.pubreq-footer p{
+
+    color:#B5C3D8;
+
+    font-size:15px;
+
+    line-height:28px;
+
+    margin-bottom:25px;
+
+}
+
+.pubreq-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+    width:100%;
+
+    height:56px;
+
+    border-radius:14px;
+
+    background:#2563EB;
+
+    color:#FFFFFF;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.35s ease;
+
+}
+
+.pubreq-btn:hover{
+
+    background:#1D4ED8;
+
+    color:#FFFFFF;
+
+    transform:translateY(-4px);
+
+}
+
+/*======================================================
+            RESPONSIVE
+======================================================*/
+
+@media (max-width:1199px){
+
+    .pubreq-heading h2{
+
+        font-size:42px;
+
+        line-height:56px;
+
+    }
+
+}
+
+@media (max-width:991px){
+
+    .pubreq-section{
+
+        padding:90px 0;
+
+    }
+
+    .pubreq-wrapper{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .pubreq-right{
+
+        max-width:680px;
+
+        width:100%;
+
+        margin:0 auto;
+
+    }
+
+}
+
+@media (max-width:767px){
+
+    .pubreq-section{
+
+        padding:70px 0;
+
+    }
+
+    .pubreq-heading{
+
+        margin-bottom:45px;
+
+    }
+
+    .pubreq-heading h2{
+
+        font-size:34px;
+
+        line-height:46px;
+
+    }
+
+    .pubreq-heading p{
+
+        font-size:15px;
+
+        line-height:28px;
+
+    }
+
+    .pubreq-item{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .pubreq-icon{
+
+        margin:0 auto;
+
+    }
+
+    .pubreq-card{
+
+        padding:25px;
+
+    }
+
+    .pubreq-card-header{
+
+        text-align:center;
+
+    }
+
+    .pubreq-circle{
+
+        width:150px;
+
+        height:150px;
+
+    }
+
+    .pubreq-circle strong{
+
+        font-size:40px;
+
+    }
+
+    .pubreq-check{
+
+        font-size:14px;
+
+    }
+
+}
+
+
+
+
+/*======================================================
+                HOW IT WORKS
+======================================================*/
+
+.pubflow-section{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:110px 0;
+
+    background:#0B1628;
+
+}
+
+.pubflow-heading{
+
+    max-width:760px;
+
+    margin:0 auto 70px;
+
+    text-align:center;
+
+}
+
+.pubflow-heading span{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:12px 24px;
+
+    border-radius:50px;
+
+    background:rgba(37,99,235,.10);
+
+    border:1px solid rgba(37,99,235,.20);
+
+    color:#2563EB;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:22px;
+
+}
+
+.pubflow-heading h2{
+
+    color:#FFFFFF;
+
+    font-size:48px;
+
+    font-weight:800;
+
+    line-height:62px;
+
+    margin-bottom:22px;
+
+}
+
+.pubflow-heading p{
+
+    color:#B8C5D8;
+
+    font-size:17px;
+
+    line-height:32px;
+
+}
+
+/*======================================================
+                GRID
+======================================================*/
+
+.pubflow-wrapper{
+
+    position:relative;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:28px;
+
+}
+
+/*======================================================
+                STEP CARD
+======================================================*/
+
+.pubflow-card{
+
+    position:relative;
+
+    padding:40px 28px;
+
+    border-radius:22px;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    transition:.35s ease;
+
+    z-index:2;
+
+}
+
+.pubflow-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:rgba(37,99,235,.30);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.28);
+
+}
+
+/*======================================================
+                STEP NUMBER
+======================================================*/
+
+.pubflow-number{
+
+    position:absolute;
+
+    top:22px;
+
+    right:22px;
+
+    color:rgba(37,99,235,.18);
+
+    font-size:42px;
+
+    font-weight:800;
+
+    line-height:1;
+
+}
+
+/*======================================================
+                ICON
+======================================================*/
+
+.pubflow-icon{
+
+    width:78px;
+
+    height:78px;
+
+    border-radius:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(37,99,235,.10);
+
+    margin-bottom:28px;
+
+}
+
+.pubflow-icon i{
+
+    color:#2563EB;
+
+    font-size:34px;
+
+}
+
+/*======================================================
+                CONTENT
+======================================================*/
+
+.pubflow-card h3{
+
+    color:#FFFFFF;
+
+    font-size:23px;
+
+    font-weight:700;
+
+    margin-bottom:16px;
+
+}
+
+.pubflow-card p{
+
+    color:#B8C5D8;
+
+    font-size:15px;
+
+    line-height:29px;
+
+}
+
+/*======================================================
+                TIMELINE
+======================================================*/
+
+.pubflow-line{
+
+    position:relative;
+
+    width:100%;
+
+    height:2px;
+
+    margin:70px 0 80px;
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.pubflow-line span{
+
+    position:absolute;
+
+    left:0;
+
+    top:-1px;
+
+    width:100%;
+
+    height:4px;
+
+    border-radius:50px;
+
+    background:linear-gradient(90deg,#2563EB,#60A5FA);
+
+}
+
+/*======================================================
+                BOTTOM CTA
+======================================================*/
+
+.pubflow-bottom{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:40px;
+
+    padding:45px;
+
+    border-radius:24px;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.pubflow-bottom-content{
+
+    flex:1;
+
+}
+
+.pubflow-bottom-content h3{
+
+    color:#FFFFFF;
+
+    font-size:34px;
+
+    font-weight:800;
+
+    margin-bottom:16px;
+
+}
+
+.pubflow-bottom-content p{
+
+    color:#B8C5D8;
+
+    font-size:16px;
+
+    line-height:30px;
+
+    max-width:700px;
+
+}
+
+.pubflow-bottom-action{
+
+    flex-shrink:0;
+
+}
+
+.pubflow-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+    min-width:240px;
+
+    height:60px;
+
+    border-radius:14px;
+
+    background:#2563EB;
+
+    color:#FFFFFF;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    padding: 10px;
+
+    transition:.35s ease;
+
+}
+
+.pubflow-btn:hover{
+
+    background:#1D4ED8;
+
+    color:#FFFFFF;
+
+    transform:translateY(-5px);
+
+    box-shadow:0 20px 45px rgba(37,99,235,.30);
+
+}
+
+/*======================================================
+                LARGE DEVICES
+======================================================*/
+
+@media (max-width:1200px){
+
+    .pubflow-wrapper{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/*======================================================
+                TABLET
+======================================================*/
+
+@media (max-width:991px){
+
+    .pubflow-section{
+
+        padding:90px 0;
+
+    }
+
+    .pubflow-heading h2{
+
+        font-size:42px;
+
+        line-height:56px;
+
+    }
+
+    .pubflow-bottom{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .pubflow-bottom-content p{
+
+        margin:0 auto;
+
+    }
+
+}
+
+/*======================================================
+                MOBILE
+======================================================*/
+
+@media (max-width:767px){
+
+    .pubflow-section{
+
+        padding:70px 0;
+
+    }
+
+    .pubflow-heading{
+
+        margin-bottom:45px;
+
+    }
+
+    .pubflow-heading h2{
+
+        font-size:34px;
+
+        line-height:46px;
+
+    }
+
+    .pubflow-heading p{
+
+        font-size:15px;
+
+        line-height:28px;
+
+    }
+
+    .pubflow-wrapper{
+
+        grid-template-columns:1fr;
+
+        gap:22px;
+
+    }
+
+    .pubflow-card{
+
+        padding:30px 22px;
+
+        text-align:center;
+
+    }
+
+    .pubflow-icon{
+
+        margin:0 auto 22px;
+
+    }
+
+    .pubflow-number{
+
+        position:relative;
+
+        top:auto;
+
+        right:auto;
+
+        display:block;
+
+        margin-bottom:18px;
+
+        font-size:36px;
+
+    }
+
+    .pubflow-line{
+
+        display:none;
+
+    }
+
+    .pubflow-bottom{
+
+        padding:30px 22px;
+
+    }
+
+    .pubflow-bottom-content h3{
+
+        font-size:28px;
+
+        line-height:38px;
+
+    }
+
+    .pubflow-bottom-content p{
+
+        font-size:15px;
+
+        line-height:28px;
+
+    }
+
+    .pubflow-btn{
+
+        width:100%;
+
+        min-width:100%;
+
+    }
+
+}
+
+
+/*======================================================
+            WHY CHOOSE Advertex
+======================================================*/
+
+.pubtrust-section{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:110px 0;
+
+    background:#07111F;
+
+}
+
+.pubtrust-heading{
+
+    max-width:760px;
+
+    margin:0 auto 70px;
+
+    text-align:center;
+
+}
+
+.pubtrust-heading span{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:12px 24px;
+
+    border-radius:50px;
+
+    background:rgba(37,99,235,.10);
+
+    border:1px solid rgba(37,99,235,.20);
+
+    color:#2563EB;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:22px;
+
+}
+
+.pubtrust-heading h2{
+
+    color:#FFFFFF;
+
+    font-size:48px;
+
+    font-weight:800;
+
+    line-height:62px;
+
+    margin-bottom:22px;
+
+}
+
+.pubtrust-heading p{
+
+    color:#B8C5D8;
+
+    font-size:17px;
+
+    line-height:32px;
+
+}
+
+/*======================================================
+                GRID
+======================================================*/
+
+.pubtrust-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+/*======================================================
+                CARD
+======================================================*/
+
+.pubtrust-card{
+
+    position:relative;
+
+    padding:40px 32px;
+
+    border-radius:22px;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    transition:.35s ease;
+
+}
+
+.pubtrust-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:rgba(37,99,235,.35);
+
+    box-shadow:0 28px 65px rgba(0,0,0,.28);
+
+}
+
+/*======================================================
+                ICON
+======================================================*/
+
+.pubtrust-icon{
+
+    width:78px;
+
+    height:78px;
+
+    border-radius:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(37,99,235,.10);
+
+    margin-bottom:28px;
+
+}
+
+.pubtrust-icon i{
+
+    color:#2563EB;
+
+    font-size:34px;
+
+}
+
+/*======================================================
+                CONTENT
+======================================================*/
+
+.pubtrust-card h3{
+
+    color:#FFFFFF;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    margin-bottom:16px;
+
+}
+
+.pubtrust-card p{
+
+    color:#B8C5D8;
+
+    font-size:15px;
+
+    line-height:29px;
+
+}
+
+
+/*======================================================
+                TRUST BAR
+======================================================*/
+
+.pubtrust-bar{
+
+    margin-top:75px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+.pubtrust-pill{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:14px 22px;
+
+    border-radius:50px;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s ease;
+
+}
+
+.pubtrust-pill:hover{
+
+    transform:translateY(-6px);
+
+    border-color:rgba(37,99,235,.35);
+
+    background:#16233B;
+
+}
+
+.pubtrust-pill i{
+
+    color:#2563EB;
+
+    font-size:18px;
+
+}
+
+.pubtrust-pill span{
+
+    color:#FFFFFF;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+/*======================================================
+                LARGE DEVICES
+======================================================*/
+
+@media (max-width:1200px){
+
+    .pubtrust-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/*======================================================
+                TABLET
+======================================================*/
+
+@media (max-width:991px){
+
+    .pubtrust-section{
+
+        padding:90px 0;
+
+    }
+
+    .pubtrust-heading{
+
+        margin-bottom:55px;
+
+    }
+
+    .pubtrust-heading h2{
+
+        font-size:42px;
+
+        line-height:56px;
+
+    }
+
+    .pubtrust-grid{
+
+        gap:24px;
+
+    }
+
+}
+
+/*======================================================
+                MOBILE
+======================================================*/
+
+@media (max-width:767px){
+
+    .pubtrust-section{
+
+        padding:70px 0;
+
+    }
+
+    .pubtrust-heading{
+
+        margin-bottom:45px;
+
+    }
+
+    .pubtrust-heading h2{
+
+        font-size:34px;
+
+        line-height:46px;
+
+    }
+
+    .pubtrust-heading p{
+
+        font-size:15px;
+
+        line-height:28px;
+
+    }
+
+    .pubtrust-grid{
+
+        grid-template-columns:1fr;
+
+        gap:22px;
+
+    }
+
+    .pubtrust-card{
+
+        padding:30px 24px;
+
+        text-align:center;
+
+    }
+
+    .pubtrust-icon{
+
+        margin:0 auto 22px;
+
+    }
+
+    .pubtrust-card h3{
+
+        font-size:22px;
+
+    }
+
+    .pubtrust-pill{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+}
+
+
+/*======================================================
+        SUCCESS STORIES & TESTIMONIALS
+======================================================*/
+
+.pubstory-section{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:110px 0;
+
+    background:#0B1628;
+
+}
+
+.pubstory-heading{
+
+    max-width:760px;
+
+    margin:0 auto 70px;
+
+    text-align:center;
+
+}
+
+.pubstory-heading span{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:12px 24px;
+
+    border-radius:50px;
+
+    background:rgba(37,99,235,.10);
+
+    border:1px solid rgba(37,99,235,.20);
+
+    color:#2563EB;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:22px;
+
+}
+
+.pubstory-heading h2{
+
+    color:#FFFFFF;
+
+    font-size:48px;
+
+    font-weight:800;
+
+    line-height:62px;
+
+    margin-bottom:22px;
+
+}
+
+.pubstory-heading p{
+
+    color:#B7C5D8;
+
+    font-size:17px;
+
+    line-height:32px;
+
+}
+
+/*======================================================
+                LAYOUT
+======================================================*/
+
+.pubstory-wrapper{
+
+    display:grid;
+
+    grid-template-columns:1.1fr .9fr;
+
+    gap:40px;
+
+    align-items:stretch;
+
+}
+
+/*======================================================
+            TESTIMONIAL CARD
+======================================================*/
+
+.pubstory-testimonial{
+
+    padding:42px;
+
+    border-radius:24px;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    transition:.35s ease;
+
+}
+
+.pubstory-testimonial:hover{
+
+    transform:translateY(-8px);
+
+    border-color:rgba(37,99,235,.35);
+
+    box-shadow:0 28px 65px rgba(0,0,0,.28);
+
+}
+
+.pubstory-stars{
+
+    display:flex;
+
+    gap:8px;
+
+    margin-bottom:28px;
+
+}
+
+.pubstory-stars i{
+
+    color:#2563EB;
+
+    font-size:18px;
+
+}
+
+.pubstory-review{
+
+    color:#D5E0F0;
+
+    font-size:18px;
+
+    line-height:34px;
+
+    margin-bottom:35px;
+
+    font-style:italic;
+
+}
+
+/*======================================================
+                AUTHOR
+======================================================*/
+
+.pubstory-author{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.pubstory-avatar{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#2563EB;
+
+    color:#FFFFFF;
+
+    font-size:22px;
+
+    font-weight:800;
+
+}
+
+.pubstory-info h4{
+
+    color:#FFFFFF;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    margin-bottom:6px;
+
+}
+
+.pubstory-info span{
+
+    color:#AFC0D8;
+
+    font-size:15px;
+
+}
+
+/*======================================================
+            RESULTS PANEL
+======================================================*/
+
+.pubstory-results{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:22px;
+
+}
+
+.pubstory-result-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    padding:28px;
+
+    border-radius:22px;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    transition:.35s ease;
+
+}
+
+.pubstory-result-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:rgba(37,99,235,.35);
+
+}
+
+.pubstory-result-icon{
+
+    width:72px;
+
+    height:72px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(37,99,235,.10);
+
+}
+
+.pubstory-result-icon i{
+
+    color:#2563EB;
+
+    font-size:30px;
+
+}
+
+.pubstory-result-card h3{
+
+    color:#FFFFFF;
+
+    font-size:34px;
+
+    font-weight:800;
+
+    margin-bottom:6px;
+
+}
+
+.pubstory-result-card p{
+
+    color:#B8C5D8;
+
+    font-size:15px;
+
+}
+
+/*======================================================
+                CATEGORY PILLS
+======================================================*/
+
+.pubstory-categories{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:18px;
+
+    margin-top:70px;
+
+}
+
+.pubstory-pill{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:14px 22px;
+
+    border-radius:50px;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s ease;
+
+}
+
+.pubstory-pill:hover{
+
+    background:#16233B;
+
+    border-color:rgba(37,99,235,.35);
+
+    transform:translateY(-5px);
+
+}
+
+.pubstory-pill i{
+
+    color:#2563EB;
+
+    font-size:18px;
+
+}
+
+.pubstory-pill span{
+
+    color:#FFFFFF;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+/*======================================================
+                LARGE DEVICES
+======================================================*/
+
+@media (max-width:1199px){
+
+    .pubstory-heading h2{
+
+        font-size:42px;
+
+        line-height:56px;
+
+    }
+
+}
+
+/*======================================================
+                TABLET
+======================================================*/
+
+@media (max-width:991px){
+
+    .pubstory-section{
+
+        padding:90px 0;
+
+    }
+
+    .pubstory-wrapper{
+
+        grid-template-columns:1fr;
+
+        gap:35px;
+
+    }
+
+    .pubstory-results{
+
+        display:grid;
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:20px;
+
+    }
+
+}
+
+/*======================================================
+                MOBILE
+======================================================*/
+
+@media (max-width:767px){
+
+    .pubstory-section{
+
+        padding:70px 0;
+
+    }
+
+    .pubstory-heading{
+
+        margin-bottom:45px;
+
+    }
+
+    .pubstory-heading h2{
+
+        font-size:34px;
+
+        line-height:46px;
+
+    }
+
+    .pubstory-heading p{
+
+        font-size:15px;
+
+        line-height:28px;
+
+    }
+
+    .pubstory-testimonial{
+
+        padding:30px 24px;
+
+    }
+
+    .pubstory-review{
+
+        font-size:16px;
+
+        line-height:30px;
+
+    }
+
+    .pubstory-author{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .pubstory-results{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .pubstory-result-card{
+
+        padding:24px;
+
+    }
+
+    .pubstory-pill{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+}
+
+
+
+/*======================================================
+                    FAQ SECTION
+======================================================*/
+
+.pubfaq-section{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:110px 0;
+
+    background:#07111F;
+
+}
+
+.pubfaq-heading{
+
+    max-width:760px;
+
+    margin:0 auto 70px;
+
+    text-align:center;
+
+}
+
+.pubfaq-heading span{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:12px 24px;
+
+    border-radius:50px;
+
+    background:rgba(37,99,235,.10);
+
+    border:1px solid rgba(37,99,235,.20);
+
+    color:#2563EB;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:22px;
+
+}
+
+.pubfaq-heading h2{
+
+    color:#FFFFFF;
+
+    font-size:48px;
+
+    font-weight:800;
+
+    line-height:62px;
+
+    margin-bottom:22px;
+
+}
+
+.pubfaq-heading p{
+
+    color:#B7C5D8;
+
+    font-size:17px;
+
+    line-height:32px;
+
+}
+
+/*======================================================
+                    ACCORDION
+======================================================*/
+
+.pubfaq-wrapper{
+
+    max-width:950px;
+
+    margin:0 auto;
+
+}
+
+.pubfaq-item{
+
+    margin-bottom:20px;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    transition:.35s ease;
+
+}
+
+.pubfaq-item:hover{
+
+    border-color:rgba(37,99,235,.35);
+
+    box-shadow:0 18px 45px rgba(0,0,0,.25);
+
+}
+
+.pubfaq-item .accordion-button{
+
+    background:#111B2E;
+
+    color:#FFFFFF;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    padding:24px 28px;
+
+    box-shadow:none;
+
+}
+
+.pubfaq-item .accordion-button:not(.collapsed){
+
+    background:#16233B;
+
+    color:#FFFFFF;
+
+}
+
+.pubfaq-item .accordion-button:focus{
+
+    box-shadow:none;
+
+    border:none;
+
+}
+
+.pubfaq-item .accordion-button::after{
+
+    filter:brightness(0) invert(1);
+
+}
+
+.pubfaq-item .accordion-body{
+
+    padding:0 28px 28px;
+
+    background:#16233B;
+
+    color:#B8C5D8;
+
+    font-size:16px;
+
+    line-height:30px;
+
+}
+
+/*======================================================
+                    FAQ CTA
+======================================================*/
+
+.pubfaq-footer{
+
+    max-width:850px;
+
+    margin:70px auto 0;
+
+    padding:45px;
+
+    text-align:center;
+
+    border-radius:24px;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.pubfaq-footer h3{
+
+    color:#FFFFFF;
+
+    font-size:34px;
+
+    font-weight:800;
+
+    margin-bottom:18px;
+
+}
+
+.pubfaq-footer p{
+
+    color:#B7C5D8;
+
+    font-size:16px;
+
+    line-height:30px;
+
+    max-width:650px;
+
+    margin:0 auto 30px;
+
+}
+
+.pubfaq-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+    min-width:240px;
+
+    height:58px;
+
+    border-radius:14px;
+
+    background:#2563EB;
+
+    color:#FFFFFF;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.35s ease;
+
+}
+
+.pubfaq-btn:hover{
+
+    background:#1D4ED8;
+
+    color:#FFFFFF;
+
+    transform:translateY(-5px);
+
+    box-shadow:0 20px 45px rgba(37,99,235,.30);
+
+}
+
+/*======================================================
+                TABLET
+======================================================*/
+
+@media (max-width:991px){
+
+    .pubfaq-section{
+
+        padding:90px 0;
+
+    }
+
+    .pubfaq-heading{
+
+        margin-bottom:55px;
+
+    }
+
+    .pubfaq-heading h2{
+
+        font-size:42px;
+
+        line-height:56px;
+
+    }
+
+    .pubfaq-item .accordion-button{
+
+        font-size:18px;
+
+    }
+
+}
+
+/*======================================================
+                MOBILE
+======================================================*/
+
+@media (max-width:767px){
+
+    .pubfaq-section{
+
+        padding:70px 0;
+
+    }
+
+    .pubfaq-heading{
+
+        margin-bottom:45px;
+
+    }
+
+    .pubfaq-heading h2{
+
+        font-size:34px;
+
+        line-height:46px;
+
+    }
+
+    .pubfaq-heading p{
+
+        font-size:15px;
+
+        line-height:28px;
+
+    }
+
+    .pubfaq-item .accordion-button{
+
+        padding:20px;
+
+        font-size:17px;
+
+        line-height:28px;
+
+    }
+
+    .pubfaq-item .accordion-body{
+
+        padding:0 20px 20px;
+
+        font-size:15px;
+
+        line-height:28px;
+
+    }
+
+    .pubfaq-footer{
+
+        padding:30px 22px;
+
+    }
+
+    .pubfaq-footer h3{
+
+        font-size:28px;
+
+        line-height:38px;
+
+    }
+
+    .pubfaq-footer p{
+
+        font-size:15px;
+
+        line-height:28px;
+
+    }
+
+    .pubfaq-btn{
+
+        width:100%;
+
+        min-width:100%;
+
+    }
+
+}
+
+
+/*======================================================
+                FINAL CTA SECTION
+======================================================*/
+
+.pubcta-section{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:120px 0;
+
+    background:linear-gradient(180deg,#07111F 0%,#0B1628 100%);
+
+}
+
+.pubcta-wrapper{
+
+    display:grid;
+
+    grid-template-columns:1.2fr .8fr;
+
+    gap:45px;
+
+    align-items:center;
+
+}
+
+/*======================================================
+                LEFT SIDE
+======================================================*/
+
+.pubcta-label{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:12px 24px;
+
+    border-radius:50px;
+
+    background:rgba(37,99,235,.10);
+
+    border:1px solid rgba(37,99,235,.20);
+
+    color:#2563EB;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:24px;
+
+}
+
+.pubcta-left h2{
+
+    color:#FFFFFF;
+
+    font-size:52px;
+
+    font-weight:800;
+
+    line-height:66px;
+
+    margin-bottom:24px;
+
+}
+
+.pubcta-left p{
+
+    color:#B8C5D8;
+
+    font-size:17px;
+
+    line-height:32px;
+
+    margin-bottom:35px;
+
+}
+
+/*======================================================
+                FEATURE LIST
+======================================================*/
+
+.pubcta-features{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.pubcta-feature{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    color:#D7E2F2;
+
+    font-size:16px;
+
+}
+
+.pubcta-feature i{
+
+    color:#2563EB;
+
+    font-size:20px;
+
+}
+
+/*======================================================
+                CTA CARD
+======================================================*/
+
+.pubcta-card{
+
+    padding:42px;
+
+    border-radius:24px;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:0 25px 65px rgba(0,0,0,.25);
+
+}
+
+.pubcta-card-top h3{
+
+    color:#FFFFFF;
+
+    font-size:30px;
+
+    font-weight:800;
+
+    margin-bottom:16px;
+
+}
+
+.pubcta-card-top p{
+
+    color:#B8C5D8;
+
+    font-size:15px;
+
+    line-height:30px;
+
+    margin-bottom:30px;
+
+}
+
+/*======================================================
+                BUTTONS
+======================================================*/
+
+.pubcta-buttons{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:16px;
+
+}
+
+.pubcta-primary{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+    width:100%;
+
+    height:58px;
+
+    border-radius:14px;
+
+    background:#2563EB;
+
+    color:#FFFFFF;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.35s ease;
+
+}
+
+.pubcta-primary:hover{
+
+    background:#1D4ED8;
+
+    color:#FFFFFF;
+
+    transform:translateY(-4px);
+
+}
+
+.pubcta-secondary{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    width:100%;
+
+    height:56px;
+
+    border-radius:14px;
+
+    border:1px solid rgba(255,255,255,.12);
+
+    color:#FFFFFF;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.35s ease;
+
+}
+
+.pubcta-secondary:hover{
+
+    background:#16233B;
+
+    color:#FFFFFF;
+
+}
+
+/*======================================================
+                    TRUST STATS
+======================================================*/
+
+.pubcta-stats{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:18px;
+
+    margin-top:32px;
+
+}
+
+.pubcta-stat{
+
+    padding:18px;
+
+    border-radius:16px;
+
+    background:#16233B;
+
+    text-align:center;
+
+}
+
+.pubcta-stat strong{
+
+    display:block;
+
+    color:#2563EB;
+
+    font-size:30px;
+
+    font-weight:800;
+
+    margin-bottom:8px;
+
+}
+
+.pubcta-stat span{
+
+    color:#D4DFEF;
+
+    font-size:14px;
+
+}
+
+/*======================================================
+                    TRUST STRIP
+======================================================*/
+
+.pubcta-trust{
+
+    margin-top:70px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:18px;
+
+}
+
+.pubcta-trust-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:14px 22px;
+
+    border-radius:50px;
+
+    background:#111B2E;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s ease;
+
+}
+
+.pubcta-trust-item:hover{
+
+    transform:translateY(-5px);
+
+    border-color:rgba(37,99,235,.35);
+
+    background:#16233B;
+
+}
+
+.pubcta-trust-item i{
+
+    color:#2563EB;
+
+    font-size:18px;
+
+}
+
+.pubcta-trust-item span{
+
+    color:#FFFFFF;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+/*======================================================
+                    TABLET
+======================================================*/
+
+@media (max-width:991px){
+
+    .pubcta-section{
+
+        padding:90px 0;
+
+    }
+
+    .pubcta-wrapper{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+    }
+
+    .pubcta-left{
+
+        text-align:center;
+
+    }
+
+    .pubcta-features{
+
+        max-width:420px;
+
+        margin:0 auto;
+
+        text-align:left;
+
+    }
+
+    .pubcta-left h2{
+
+        font-size:42px;
+
+        line-height:56px;
+
+    }
+
+}
+
+/*======================================================
+                    MOBILE
+======================================================*/
+
+@media (max-width:767px){
+
+    .pubcta-section{
+
+        /* padding:70px 0; */
+        padding:0;
+
+    }
+
+    .pubcta-left h2{
+
+        font-size:34px;
+
+        line-height:46px;
+
+    }
+
+    .pubcta-left p{
+
+        font-size:15px;
+
+        line-height:28px;
+
+    }
+
+    .pubcta-card{
+
+        padding:28px 22px;
+
+    }
+
+    .pubcta-card-top h3{
+
+        font-size:26px;
+
+    }
+
+    .pubcta-stats{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .pubcta-trust-item{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+}
