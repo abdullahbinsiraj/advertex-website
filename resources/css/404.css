@@ -1,0 +1,569 @@
+/*======================================================
+                    404 PAGE
+======================================================*/
+
+.err404-page{
+
+    position:relative;
+
+    overflow:hidden;
+
+    background:#050B18;
+
+    padding:110px 0;
+
+}
+
+.err404-page::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:-220px;
+
+    left:-220px;
+
+    width:420px;
+
+    height:420px;
+
+    border-radius:50%;
+
+    background:rgba(37,99,235,.08);
+
+    filter:blur(110px);
+
+}
+
+.err404-page::after{
+
+    content:"";
+
+    position:absolute;
+
+    bottom:-220px;
+
+    right:-220px;
+
+    width:420px;
+
+    height:420px;
+
+    border-radius:50%;
+
+    background:rgba(37,99,235,.08);
+
+    filter:blur(110px);
+
+}
+
+/*======================================================
+                    LAYOUT
+======================================================*/
+
+.err404-wrapper{
+
+    position:relative;
+
+    z-index:2;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    align-items:center;
+
+    gap:80px;
+
+}
+
+/*======================================================
+                    LEFT
+======================================================*/
+
+.err404-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:12px 24px;
+    margin-top: 20px;
+
+    border-radius:50px;
+
+    background:rgba(37,99,235,.10);
+
+    border:1px solid rgba(37,99,235,.25);
+
+    color:#60A5FA;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:24px;
+
+}
+
+.err404-left h1{
+
+    color:#FFFFFF;
+
+    font-size:64px;
+
+    line-height:78px;
+
+    font-weight:800;
+
+    margin-bottom:26px;
+
+}
+
+.err404-left p{
+
+    color:#A8B3CF;
+
+    font-size:17px;
+
+    line-height:34px;
+
+    max-width:560px;
+
+    margin-bottom:40px;
+
+}
+
+/*======================================================
+                    BUTTONS
+======================================================*/
+
+.err404-buttons{
+
+    display:flex;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+.err404-btn-primary{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:18px 34px;
+
+    border-radius:14px;
+
+    background:#2563EB;
+
+    color:#FFFFFF;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.err404-btn-primary:hover{
+
+    color:#FFFFFF;
+
+    transform:translateY(-4px);
+
+    box-shadow:0 18px 40px rgba(37,99,235,.35);
+
+}
+
+.err404-btn-secondary{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:18px 34px;
+
+    border-radius:14px;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    color:#FFFFFF;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.err404-btn-secondary:hover{
+
+    background:#FFFFFF;
+
+    color:#111827;
+
+}
+
+/*======================================================
+                    RIGHT SIDE
+======================================================*/
+
+.err404-right{
+
+    position:relative;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:560px;
+
+}
+
+.err404-glow{
+
+    position:absolute;
+
+    width:380px;
+
+    height:380px;
+
+    border-radius:50%;
+
+    background:radial-gradient(circle,#2563EB33,transparent 70%);
+
+    animation:err404Float 6s ease-in-out infinite;
+
+}
+
+.err404-number{
+
+    position:relative;
+
+    z-index:2;
+
+    font-size:190px;
+
+    line-height:1;
+
+    font-weight:900;
+
+    color:#2563EB;
+
+    text-shadow:0 0 40px rgba(37,99,235,.35);
+
+}
+
+.err404-status-card{
+
+    position:absolute;
+
+    bottom:25px;
+
+    width:290px;
+
+    padding:24px;
+
+    border-radius:22px;
+
+    text-align:center;
+
+    background:linear-gradient(180deg,#111B2E,#0B1628);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.30);
+
+    z-index:3;
+
+}
+
+.err404-status-icon{
+
+    width:70px;
+
+    height:70px;
+
+    margin:auto;
+
+    margin-bottom:18px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(37,99,235,.10);
+
+}
+
+.err404-status-icon i{
+
+    font-size:30px;
+
+    color:#3B82F6;
+
+}
+
+.err404-status-card h4{
+
+    color:#FFFFFF;
+
+    font-size:20px;
+
+    margin-bottom:12px;
+
+}
+
+.err404-status-card p{
+
+    color:#A8B3CF;
+
+    font-size:14px;
+
+    line-height:26px;
+
+    margin:0;
+
+}
+
+/*======================================================
+                FLOATING BADGES
+======================================================*/
+
+.err404-floating{
+
+    position:absolute;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:12px 18px;
+
+    border-radius:14px;
+
+    background:#182235;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    color:#FFFFFF;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+}
+
+.err404-floating i{
+
+    color:#3B82F6;
+
+}
+
+.err404-float-one{
+
+    top:30px;
+
+    right:0;
+
+}
+
+.err404-float-two{
+
+    top:190px;
+
+    left:0;
+
+}
+
+.err404-float-three{
+
+    bottom:110px;
+
+    right:10px;
+
+}
+
+/*======================================================
+                BACKGROUND SHAPES
+======================================================*/
+
+.err404-bg{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    filter:blur(80px);
+
+    background:rgba(37,99,235,.05);
+
+}
+
+.err404-bg-1{
+
+    width:220px;
+
+    height:220px;
+
+    top:10%;
+
+    left:5%;
+
+}
+
+.err404-bg-2{
+
+    width:260px;
+
+    height:260px;
+
+    bottom:8%;
+
+    right:6%;
+
+}
+
+.err404-bg-3{
+
+    width:170px;
+
+    height:170px;
+
+    top:45%;
+
+    left:48%;
+
+}
+
+/*======================================================
+                RESPONSIVE
+======================================================*/
+
+@media(max-width:991px){
+
+.err404-wrapper{
+
+    grid-template-columns:1fr;
+
+    gap:60px;
+
+    text-align:center;
+
+}
+
+.err404-left p{
+
+    margin-left:auto;
+
+    margin-right:auto;
+
+}
+
+.err404-buttons{
+
+    justify-content:center;
+
+}
+
+.err404-right{
+
+    min-height:460px;
+
+}
+
+}
+
+/*======================================================
+            MOBILE FINAL FIX
+======================================================*/
+
+@media (max-width:767px){
+
+    .err404-right{
+
+        display:flex;
+
+        flex-direction:column;
+
+        justify-content:center;
+
+        align-items:center;
+
+        min-height:auto;
+
+        gap:20px;
+
+    }
+
+    .err404-number{
+
+        font-size:110px;
+
+        text-align:center;
+
+        margin:0;
+
+    }
+
+    .err404-status-card{
+
+        position:static;
+
+        width:100%;
+
+        max-width:260px;
+
+        margin:0 auto;
+
+        left:auto;
+
+        right:auto;
+
+        bottom:auto;
+
+    }
+
+}
+/*======================================================
+                    ANIMATION
+======================================================*/
+
+@keyframes err404Float{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+}

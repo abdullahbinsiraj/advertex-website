@@ -1,0 +1,55 @@
+# Environment and secrets
+/.env
+/.env.*
+!/.env.example
+!/.env.production.example
+/auth.json
+/credentials.json
+/storage/*.key
+
+# PHP and Composer
+/vendor/
+/.phpunit.cache/
+/.phpunit.result.cache
+/.phpactor.json
+/coverage/
+
+# Node and Vite
+/node_modules/
+/public/build/
+/public/hot
+/public/storage
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/pnpm-debug.log*
+
+# Laravel runtime
+*.log
+/bootstrap/cache/*.php
+/storage/pail/
+
+# IDEs and editors
+/.fleet/
+/.idea/
+/.nova/
+/.vscode/
+/.zed/
+*.swp
+*.swo
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local tooling and temporary files
+/.cache/
+/.sass-cache/
+*.bak
+*.tmp
+
+# Legacy local development
+Homestead.json
+Homestead.yaml

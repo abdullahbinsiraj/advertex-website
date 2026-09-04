@@ -1,0 +1,222 @@
+/*=========================================
+        KPI GRID
+=========================================*/
+
+.hero-kpi-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+    margin:28px 0;
+
+}
+
+.hero-stat-card{
+
+    background:linear-gradient(180deg,#1B2433,#131C2B);
+
+    border:1px solid rgba(255,255,255,.06);
+
+    border-radius:20px;
+
+    padding:22px;
+
+    transition:all .35s ease;
+
+}
+
+.hero-stat-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:rgba(59,130,246,.35);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+
+}
+
+.hero-stat-top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:18px;
+
+}
+
+.hero-stat-icon{
+
+    width:48px;
+
+    height:48px;
+
+    border-radius:14px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:#fff;
+
+    font-size:20px;
+
+}
+
+.hero-stat-icon.blue{
+
+    background:linear-gradient(135deg,#2563EB,#3B82F6);
+
+}
+
+.hero-stat-icon.purple{
+
+    background:linear-gradient(135deg,#7C3AED,#A855F7);
+
+}
+
+.hero-stat-icon.green{
+
+    background:linear-gradient(135deg,#10B981,#22C55E);
+
+}
+
+.hero-stat-icon.orange{
+
+    background:linear-gradient(135deg,#F59E0B,#F97316);
+
+}
+
+.hero-stat-badge{
+
+    padding:6px 12px;
+
+    border-radius:50px;
+
+    font-size:12px;
+
+    font-weight:700;
+
+    background:rgba(34,197,94,.15);
+
+    color:#22C55E;
+
+}
+
+.hero-stat-title{
+
+    display:block;
+
+    color:#94A3B8;
+
+    font-size:13px;
+
+    margin-bottom:8px;
+
+}
+
+.hero-stat-value{
+
+    margin:0;
+
+    color:#fff;
+
+    font-size:32px;
+
+    font-weight:800;
+
+}
+
+.hero-stat-text{
+
+    display:block;
+
+    margin-top:10px;
+
+    color:#64748B;
+
+    font-size:13px;
+
+}
+
+@media(max-width:768px){
+
+.hero-kpi-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+/*=========================================
+        MOBILE FIX
+=========================================*/
+
+@media (max-width: 576px){
+
+    .hero-section{
+
+        padding:80px 0 60px;
+
+    }
+
+    .hero-title{
+
+        font-size:42px;
+
+        line-height:1.15;
+
+    }
+
+    .hero-description{
+
+        font-size:16px;
+
+        line-height:1.8;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .hero-btn-primary,
+    .hero-btn-secondary{
+
+        width:100%;
+
+    }
+
+    .hero-dashboard{
+
+        margin-top:40px;
+
+        padding:18px;
+
+    }
+
+    .hero-kpi-grid{
+
+        grid-template-columns:1fr !important;
+
+        gap:16px;
+
+    }
+
+    .hero-stat-card{
+
+        padding:20px;
+
+    }
+
+}

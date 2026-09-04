@@ -1,0 +1,15 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /storage/
+
+Disallow: /vendor/
+
+Disallow: /node_modules/
+
+Disallow: /.git/
+
+Disallow: /.env/
+
+Sitemap: https://advertex.com/sitemap.xml
