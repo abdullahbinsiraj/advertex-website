@@ -10,7 +10,7 @@
 
                 <a href="{{ url('/') }}" class="footer-logo">
 
-                    <img src="{{ asset('images/logo.png') }}" alt="Advertex">
+                    <img src="{{ asset('images/logo.png') }}" alt="Advertex" width="140" height="28">
 
                 </a>
 
@@ -130,7 +130,7 @@
 
                         <i class="bi bi-telephone-fill"></i>
 
-                        <a href="tel:+994554560233">+994554560233</a>
+                        <a href="tel:+994554560233">+994 55 456 0233</a>
 
                     </li>
 
@@ -139,8 +139,7 @@
                         <i class="bi bi-geo-alt-fill"></i>
 
                         <span>
-                            5th Floor, Baku White City Business Centre<br>
-                            8 November Avenue, Baku AZ1025, Azerbaijan
+                            5th Floor, Baku White City Business Centre, 8 November Avenue, Baku AZ1025, Azerbaijan
                         </span>
 
                     </li>
