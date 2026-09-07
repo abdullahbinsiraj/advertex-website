@@ -1420,11 +1420,17 @@ body {
 
 .navbar-brand img{
 
-    height:40px;
+    height:26px;
 
     width:auto;
 
+    max-height:26px;
+
+    max-width:140px;
+
     display:block;
+
+    object-fit:contain;
 
 }
 
@@ -1631,7 +1637,11 @@ body {
 
     .navbar-brand img{
 
-        height:32px;
+        height:22px;
+
+        max-height:22px;
+
+        max-width:120px;
 
     }
 
@@ -4774,7 +4784,7 @@ padding:0 22px 22px;
 
 .contact-email-list a{
 
-    display:block;
+    display:inline;
 
 }
 
@@ -4991,11 +5001,17 @@ padding:28px;
 
 .footer-logo img{
 
-    height:44px;
+    height:28px;
 
     width:auto;
 
+    max-height:28px;
+
+    max-width:150px;
+
     display:block;
+
+    object-fit:contain;
 
 }
 
@@ -5139,8 +5155,7 @@ padding:28px;
 
 /*============================*/
 
-.footer-social,
-.contact-social{
+.footer-social{
 
     display:flex;
 
@@ -5150,8 +5165,7 @@ padding:28px;
 
 }
 
-.footer-social a,
-.contact-social a{
+.footer-social a{
 
     width:46px;
 
@@ -5177,8 +5191,7 @@ padding:28px;
 
 }
 
-.footer-social a:hover,
-.contact-social a:hover{
+.footer-social a:hover{
 
     background:#2563EB;
 
@@ -5188,22 +5201,19 @@ padding:28px;
 
 }
 
-.footer-social a[aria-label="LinkedIn"]:hover,
-.contact-social a[aria-label="LinkedIn"]:hover{
+.footer-social a[aria-label="LinkedIn"]:hover{
 
     background:#0A66C2;
 
 }
 
-.footer-social a[aria-label="WeChat"]:hover,
-.contact-social a[aria-label="WeChat"]:hover{
+.footer-social a[aria-label="WeChat"]:hover{
 
     background:#07C160;
 
 }
 
-.footer-social a[aria-label="WhatsApp"]:hover,
-.contact-social a[aria-label="WhatsApp"]:hover{
+.footer-social a[aria-label="WhatsApp"]:hover{
 
     background:#25D366;
 
@@ -5295,7 +5305,11 @@ padding:70px 0 25px;
 
 .footer-logo img{
 
-height:36px;
+height:24px;
+
+max-height:24px;
+
+max-width:130px;
 
 }
 

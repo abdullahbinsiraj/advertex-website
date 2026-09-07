@@ -6,7 +6,7 @@
 
             <a class="navbar-brand" href="{{ url('/') }}">
 
-                <img src="{{ asset('images/logo.png') }}" alt="Advertex">
+                <img src="{{ asset('images/logo.png') }}" alt="Advertex" width="130" height="26">
 
             </a>
 
