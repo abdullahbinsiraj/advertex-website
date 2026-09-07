@@ -78,8 +78,10 @@
 
                     <div class="cta-action">
 
-                        <a href="#contact"
-                           class="cta-btn-primary">
+                        <a href="https://real-time-reporting.advertex360.com/register"
+                           class="cta-btn-primary"
+                           target="_blank"
+                           rel="noopener noreferrer">
 
                             Get Started
 

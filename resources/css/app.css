@@ -1410,13 +1410,21 @@ body {
 
 .navbar-brand{
 
-    font-size:38px;
+    display:flex;
 
-    font-weight:800;
+    align-items:center;
 
     text-decoration:none;
 
-    letter-spacing:-1px;
+}
+
+.navbar-brand img{
+
+    height:40px;
+
+    width:auto;
+
+    display:block;
 
 }
 
@@ -1606,6 +1614,24 @@ body {
     .navbar-nav{
 
         gap:8px;
+
+    }
+
+    .navbar-mobile-cta{
+
+        margin-top:18px;
+
+    }
+
+    .navbar-mobile-cta .btn-primary-nav{
+
+        width:100%;
+
+    }
+
+    .navbar-brand img{
+
+        height:32px;
 
     }
 
@@ -4730,6 +4756,28 @@ padding:0 22px 22px;
 
 }
 
+.contact-info-card a{
+
+    color:#9CA3AF;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.contact-info-card a:hover{
+
+    color:#60A5FA;
+
+}
+
+.contact-email-list a{
+
+    display:block;
+
+}
+
 /*==============================
         FORM
 ==============================*/
@@ -4935,19 +4983,19 @@ padding:28px;
 
 .footer-logo{
 
-    font-size:34px;
-
-    font-weight:800;
-
-    color:#fff;
+    display:inline-block;
 
     text-decoration:none;
 
 }
 
-.footer-logo span{
+.footer-logo img{
 
-    color:#3B82F6;
+    height:44px;
+
+    width:auto;
+
+    display:block;
 
 }
 
@@ -5073,9 +5121,26 @@ padding:28px;
 
 }
 
+.footer-contact a{
+
+    color:#94A3B8;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-contact a:hover{
+
+    color:#fff;
+
+}
+
 /*============================*/
 
-.footer-social{
+.footer-social,
+.contact-social{
 
     display:flex;
 
@@ -5085,7 +5150,8 @@ padding:28px;
 
 }
 
-.footer-social a{
+.footer-social a,
+.contact-social a{
 
     width:46px;
 
@@ -5103,19 +5169,43 @@ padding:28px;
 
     color:#fff;
 
+    font-size:20px;
+
     text-decoration:none;
 
     transition:.35s;
 
 }
 
-.footer-social a:hover{
+.footer-social a:hover,
+.contact-social a:hover{
 
     background:#2563EB;
 
     transform:translateY(-6px);
 
     box-shadow:0 15px 35px rgba(37,99,235,.30);
+
+}
+
+.footer-social a[aria-label="LinkedIn"]:hover,
+.contact-social a[aria-label="LinkedIn"]:hover{
+
+    background:#0A66C2;
+
+}
+
+.footer-social a[aria-label="WeChat"]:hover,
+.contact-social a[aria-label="WeChat"]:hover{
+
+    background:#07C160;
+
+}
+
+.footer-social a[aria-label="WhatsApp"]:hover,
+.contact-social a[aria-label="WhatsApp"]:hover{
+
+    background:#25D366;
 
 }
 
@@ -5203,9 +5293,9 @@ padding:70px 0 25px;
 
 }
 
-.footer-logo{
+.footer-logo img{
 
-font-size:28px;
+height:36px;
 
 }
 

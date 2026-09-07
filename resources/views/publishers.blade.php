@@ -61,7 +61,10 @@
 
                 <div class="pubx-actions">
 
-                    <a href="/signup" class="pubx-btn-primary">
+                    <a href="https://real-time-reporting.advertex360.com/register"
+                       class="pubx-btn-primary"
+                       target="_blank"
+                       rel="noopener noreferrer">
 
                         Become A Publisher
 
@@ -1122,7 +1125,10 @@
 
             <div class="pubflow-bottom-action">
 
-                <a href="/signup" class="pubflow-btn">
+                <a href="https://real-time-reporting.advertex360.com/register"
+                   class="pubflow-btn"
+                   target="_blank"
+                   rel="noopener noreferrer">
 
                     Become A Publisher
 
@@ -2147,7 +2153,10 @@
 
                 <div class="pubcta-buttons">
 
-                    <a href="/signup" class="pubcta-primary">
+                    <a href="https://real-time-reporting.advertex360.com/register"
+                       class="pubcta-primary"
+                       target="_blank"
+                       rel="noopener noreferrer">
 
                         Create Publisher Account
 

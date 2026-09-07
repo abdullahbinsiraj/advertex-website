@@ -194,7 +194,7 @@
 
                 If you have any questions regarding these Terms & Conditions,
                 please contact our support team through the Contact page or via
-                our official business email.
+                info@advertex360.com.
 
             </p>
 

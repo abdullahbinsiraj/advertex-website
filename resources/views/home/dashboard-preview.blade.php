@@ -68,7 +68,10 @@
 
                 </div>
 
-                <a href="#contact" class="preview-btn">
+                <a href="https://real-time-reporting.advertex360.com/register"
+                   class="preview-btn"
+                   target="_blank"
+                   rel="noopener noreferrer">
 
                     Explore Dashboard
 
