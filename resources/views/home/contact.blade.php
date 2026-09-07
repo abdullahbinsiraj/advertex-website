@@ -52,7 +52,8 @@
                         <h5>Office Address</h5>
 
                         <p>
-                            Your Office Address Here
+                            5th Floor, Baku White City Business Centre<br>
+                            8 November Avenue, Baku AZ1025, Azerbaijan
                         </p>
 
                     </div>
@@ -71,8 +72,10 @@
 
                         <h5>Email Address</h5>
 
-                        <p>
-                            contact@Advertex.com
+                        <p class="contact-email-list">
+                            <a href="mailto:info@advertex360.com">info@advertex360.com</a>
+                            <a href="mailto:contact@advertex360.com">contact@advertex360.com</a>
+                            <a href="mailto:finance@advertex360.com">finance@advertex360.com</a>
                         </p>
 
                     </div>
@@ -92,7 +95,7 @@
                         <h5>Phone Number</h5>
 
                         <p>
-                            +1 (000) 123-4567
+                            <a href="tel:+994554560233">+994554560233</a>
                         </p>
 
                     </div>
@@ -117,11 +120,42 @@
 
                             <br>
 
-                            09:00 AM - 06:00 PM
+                            9:00 AM - 5:00 PM
 
                         </p>
 
                     </div>
+
+                </div>
+
+                <div class="contact-social">
+
+                    <a href="https://www.linkedin.com/company/advertexco/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn">
+
+                        <i class="bi bi-linkedin"></i>
+
+                    </a>
+
+                    <a href="https://teams.live.com/l/invite/FEAhakXgKmK3_7_ng?v=g1"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="WeChat">
+
+                        <i class="bi bi-wechat"></i>
+
+                    </a>
+
+                    <a href="https://wa.me/994554560233"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="WhatsApp">
+
+                        <i class="bi bi-whatsapp"></i>
+
+                    </a>
 
                 </div>
 

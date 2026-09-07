@@ -42,7 +42,10 @@
 
                     <div class="srv-hero-btns">
 
-                        <a href="#" class="srv-primary-btn">
+                        <a href="https://real-time-reporting.advertex360.com/register"
+                           class="srv-primary-btn"
+                           target="_blank"
+                           rel="noopener noreferrer">
 
                             Get Started
 
@@ -1023,7 +1026,10 @@
 
                             </div>
 
-                            <a href="#" class="srv-preview-btn">
+                            <a href="https://real-time-reporting.advertex360.com/register"
+                               class="srv-preview-btn"
+                               target="_blank"
+                               rel="noopener noreferrer">
 
                                 <i class="bi bi-eye-fill"></i>
 

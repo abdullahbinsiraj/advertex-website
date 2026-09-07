@@ -8,9 +8,9 @@
 
             <div class="col-lg-4">
 
-                <a href="#" class="footer-logo">
+                <a href="{{ url('/') }}" class="footer-logo">
 
-                    Ad<span>vertex</span>
+                    <img src="{{ asset('images/logo.png') }}" alt="Advertex">
 
                 </a>
 
@@ -25,27 +25,30 @@
 
                 <div class="footer-social">
 
-                    <a href="#">
+                    <a href="https://www.linkedin.com/company/advertexco/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn">
 
                         <i class="bi bi-linkedin"></i>
 
                     </a>
 
-                    <a href="#">
+                    <a href="https://teams.live.com/l/invite/FEAhakXgKmK3_7_ng?v=g1"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="WeChat">
 
-                        <i class="bi bi-facebook"></i>
-
-                    </a>
-
-                    <a href="#">
-
-                        <i class="bi bi-twitter-x"></i>
+                        <i class="bi bi-wechat"></i>
 
                     </a>
 
-                    <a href="#">
+                    <a href="https://wa.me/994554560233"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="WhatsApp">
 
-                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-whatsapp"></i>
 
                     </a>
 
@@ -71,7 +74,7 @@
 
                     <li><a href="{{ route('services') }}">Services</a></li>
 
-                    <li><a href="{{ route('publishers') }}">publishers</a></li>
+                    <li><a href="{{ route('publishers') }}">Publishers</a></li>
 
                 </ul>
 
@@ -89,13 +92,15 @@
 
                 <ul class="footer-links">
 
-                    <li><a href="#">Google Ad Manager</a></li>
+                    <li><a href="{{ route('ad-formats') }}">Ad Formats</a></li>
 
-                    <li><a href="#">Header Bidding</a></li>
+                    <li><a href="{{ route('ad-formats') }}">Google Ad Manager</a></li>
 
-                    <li><a href="#">AdX Optimization</a></li>
+                    <li><a href="{{ route('ad-formats') }}">Header Bidding</a></li>
 
-                    <li><a href="#">Video Monetization</a></li>
+                    <li><a href="{{ route('ad-formats') }}">AdX Optimization</a></li>
+
+                    <li><a href="{{ route('ad-formats') }}">Video Monetization</a></li>
 
                 </ul>
 
@@ -117,7 +122,7 @@
 
                         <i class="bi bi-envelope-fill"></i>
 
-                        contact@Advertex.com
+                        <a href="mailto:info@advertex360.com">info@advertex360.com</a>
 
                     </li>
 
@@ -125,7 +130,7 @@
 
                         <i class="bi bi-telephone-fill"></i>
 
-                        +1 (000) 123-4567
+                        <a href="tel:+994554560233">+994554560233</a>
 
                     </li>
 
@@ -133,7 +138,10 @@
 
                         <i class="bi bi-geo-alt-fill"></i>
 
-                        Your Office Address
+                        <span>
+                            5th Floor, Baku White City Business Centre<br>
+                            8 November Avenue, Baku AZ1025, Azerbaijan
+                        </span>
 
                     </li>
 

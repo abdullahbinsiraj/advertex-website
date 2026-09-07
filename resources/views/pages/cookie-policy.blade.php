@@ -195,7 +195,7 @@
 
                 If you have any questions regarding our use of cookies or this
                 Cookie Policy, please contact our support team through our
-                Contact page or official business email.
+                Contact page or at info@advertex360.com.
 
             </p>
 

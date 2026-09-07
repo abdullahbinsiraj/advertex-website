@@ -36,8 +36,10 @@
 
                 <div class="hero-buttons">
 
-                    <a href="#contact"
-                       class="hero-btn-primary">
+                    <a href="https://real-time-reporting.advertex360.com/register"
+                       class="hero-btn-primary"
+                       target="_blank"
+                       rel="noopener noreferrer">
 
                         Get Started
 

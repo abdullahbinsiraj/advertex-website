@@ -6,8 +6,8 @@
 
             <a class="navbar-brand" href="{{ url('/') }}">
 
-                <span class="logo-white">Ad</span><span class="logo-blue">vertex</span>
-                
+                <img src="{{ asset('images/logo.png') }}" alt="Advertex">
+
             </a>
 
             <button class="navbar-toggler" type="button"
@@ -49,6 +49,15 @@
 
                 </ul>
 
+                <div class="navbar-mobile-cta d-lg-none">
+                    <a href="https://real-time-reporting.advertex360.com/register"
+                       class="btn-primary-nav"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Sign Up
+                    </a>
+                </div>
+
             </div>
 
             <div class="navbar-buttons d-none d-lg-flex">
@@ -57,7 +66,10 @@
                     Contact Us
                 </a>
 
-                <a href="#" class="btn-primary-nav">
+                <a href="https://real-time-reporting.advertex360.com/register"
+                   class="btn-primary-nav"
+                   target="_blank"
+                   rel="noopener noreferrer">
                     Sign Up
                 </a>
 

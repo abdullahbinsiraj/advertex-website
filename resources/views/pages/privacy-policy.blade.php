@@ -252,7 +252,7 @@
 
                 If you have any questions regarding this Privacy
                 Policy, please contact our team through the Contact
-                page or by emailing us directly.
+                page or by emailing us at info@advertex360.com.
 
             </p>
 
